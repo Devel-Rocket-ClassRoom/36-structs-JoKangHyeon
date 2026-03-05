@@ -17,4 +17,6 @@ tomatoPasta.PrintRecipe();
 
 Console.WriteLine();
 Console.WriteLine("=== 4인분으로 변환 ===");
-tomatoPasta.ScaleRecipe(4);
+
+RecipeCard tomatoPasta4 = tomatoPasta.ScaleRecipe(4);
+tomatoPasta4.PrintRecipe();
